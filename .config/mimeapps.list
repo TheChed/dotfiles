@@ -1,0 +1,12 @@
+[Default Applications]
+video/MP2T=mpv.desktop
+application/pdf=mupdf.desktop
+x-scheme-handler/tg=org.telegram.desktop.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-5JZLR2.desktop
+message/rfc822=userapp-Thunderbird-5JZLR2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-5JZLR2.desktop
+
+[Added Associations]
+x-scheme-handler/tg=org.telegram.desktop.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-5JZLR2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-5JZLR2.desktop;

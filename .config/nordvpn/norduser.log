@@ -1,0 +1,310 @@
+2024/07/04 01:04:16.044436 main.go:358: [Info] Norduser daemon has started
+2024/07/04 01:04:16.177291 monitor.go:195: [Error] CodeTokenRenewError
+2024/07/04 01:04:19.045771 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/04 01:05:41.101338 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:07:16.101419 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:08:46.101216 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:13:16.098128 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:18:11.099010 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:22:31.100921 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:24:21.097537 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:25:26.099278 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:30:01.094572 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:33:01.096611 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:35:46.098440 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:40:31.098434 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:43:21.097678 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:51:06.097596 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 01:58:21.097343 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 02:07:36.099475 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 02:13:46.098128 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 02:23:26.101067 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 02:32:11.099448 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 02:40:16.096146 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 02:48:21.100125 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 02:57:31.099504 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 03:03:51.098747 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 03:08:51.103219 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 03:18:01.100001 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 03:25:16.099280 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 03:30:51.098231 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 03:38:56.098752 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 03:47:11.099993 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 03:56:11.099399 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 04:02:01.100187 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 04:11:31.102280 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 04:19:01.095675 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 04:24:26.096382 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 04:30:26.095801 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 04:38:21.101748 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 04:44:36.105523 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 04:51:06.102272 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 04:59:41.102152 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 05:07:26.101099 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 05:17:26.098724 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 05:23:31.098673 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 05:29:11.100946 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 05:35:26.100422 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 05:45:21.097733 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 05:50:21.104010 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 05:58:41.102736 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 06:05:26.107161 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 06:13:51.106280 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 06:20:11.105948 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 06:26:41.106240 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 06:33:16.114160 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 06:42:21.106537 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 06:50:56.109583 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 06:59:21.109657 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 07:07:41.105334 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 07:14:51.103375 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 07:21:06.107316 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 07:27:11.104129 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 07:33:06.110610 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 07:42:46.101980 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 07:48:41.106320 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 07:55:26.106502 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 08:02:01.103037 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 08:07:31.101046 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 08:12:31.102382 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 08:22:11.102242 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 08:31:36.113221 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 08:37:06.109278 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 08:42:16.106016 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 08:50:26.105970 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 08:57:41.102874 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 09:03:16.100495 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 09:10:46.102689 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 09:19:36.104857 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 09:25:26.105391 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 09:33:51.106664 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 09:40:21.101763 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 09:49:31.104513 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 09:55:41.105306 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 10:04:06.107923 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 10:10:01.108541 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 10:19:16.109322 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 10:29:11.109751 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 10:36:36.105755 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 10:45:41.112853 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 10:53:56.108484 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 10:59:51.106402 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 11:04:56.107717 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 11:14:31.107119 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 11:21:51.105035 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 11:28:16.104862 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 11:36:36.108514 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 11:46:11.107899 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 11:51:41.105577 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 11:57:41.107746 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 12:03:06.107917 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 12:10:46.106568 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 12:19:51.103100 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 12:26:11.108682 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 12:34:06.103763 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 12:39:21.104998 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 12:48:01.106388 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 12:57:06.104782 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 13:06:26.106479 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 13:13:56.103969 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 13:21:41.106318 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 13:31:01.109617 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 13:39:01.107320 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 13:44:51.107279 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 13:53:41.105817 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 13:58:46.104528 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 14:06:01.102287 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 14:12:41.101994 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 14:19:21.106609 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 14:27:31.109338 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 14:37:01.106243 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 14:43:41.107510 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 14:53:11.109697 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 15:02:36.107253 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 15:08:16.106635 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 15:17:06.103277 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 15:26:21.107391 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 15:31:21.106850 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 15:40:11.108490 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 15:46:01.110480 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 15:54:46.106749 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 15:59:56.104982 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 16:08:31.109470 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 16:15:26.106901 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 16:22:36.100630 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 16:28:36.105693 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 16:34:41.104984 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 16:41:51.108805 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 16:50:56.106029 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 16:58:41.104066 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 17:07:26.105302 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 17:12:51.109244 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 17:22:16.108014 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 17:32:11.108629 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 17:40:41.106651 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 17:48:26.106923 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 17:56:36.106799 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 18:05:51.108031 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 18:13:06.109361 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 18:19:51.110756 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 18:28:31.104166 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 18:38:16.106642 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 18:46:36.108745 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 18:52:41.113359 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 19:02:01.110213 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 19:09:41.111044 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 19:19:01.108859 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 19:24:26.108182 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 19:29:56.108016 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 19:39:26.104959 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 19:48:06.107414 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 19:53:51.111748 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 19:59:56.109578 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 20:08:21.115686 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 20:17:16.104356 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 20:22:56.110256 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 20:32:41.114570 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 20:41:46.110380 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 20:47:06.110332 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 20:53:56.108384 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 21:03:16.112001 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 21:12:16.111123 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 21:18:31.112470 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 21:27:06.111279 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 21:37:01.107827 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 21:42:56.111040 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 21:50:41.112334 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 21:56:26.107079 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 22:03:06.108529 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 22:12:16.110090 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 22:18:46.105119 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 22:26:46.112899 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 22:34:06.108091 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 22:43:21.108910 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 22:52:46.113858 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 23:01:46.110893 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 23:09:11.109141 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 23:18:56.111787 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 23:28:06.109646 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 23:38:01.107659 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 23:46:31.110329 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/04 23:54:01.108649 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 00:00:31.111081 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 00:07:16.110009 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 00:16:41.105388 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 00:25:36.108067 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 00:34:01.106785 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 00:41:46.111072 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 00:47:01.109316 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 00:56:51.107873 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 01:03:46.110286 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 01:13:01.106852 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 01:21:06.110047 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 01:28:16.107907 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 01:34:06.106546 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 01:39:26.106298 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 01:45:56.111856 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 01:52:41.113336 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 01:58:41.106404 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 02:08:01.110432 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 02:13:11.106985 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 02:22:46.109899 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 02:32:16.108555 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 02:39:21.109360 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 02:46:21.106837 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 02:55:56.110092 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 03:01:31.109053 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 03:11:06.115356 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 03:17:16.106621 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 03:23:36.108538 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 03:32:11.103491 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 03:41:56.108914 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 03:51:36.109649 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 04:01:31.105654 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 04:07:51.102063 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 04:14:16.109925 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 04:21:11.104949 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 04:27:46.108448 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 04:33:41.107751 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 04:43:36.105040 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 04:49:01.108340 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 04:56:01.103568 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 05:04:31.106324 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 05:13:01.105396 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 05:19:01.108398 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 05:27:31.105208 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 05:36:11.105526 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 05:46:06.112885 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 05:53:46.110929 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 06:02:26.110006 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 06:08:31.102700 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 06:17:46.108325 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 06:24:21.105615 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 06:33:36.106794 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 06:40:46.107881 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 06:45:51.102768 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 06:53:51.102560 monitor.go:182: [Error] Error retrieving account info: rpc error: code = Unknown desc = you are not logged in
+2024/07/05 06:59:17.566221 main.go:177: [Info] Received signal: terminated
+2024/07/05 06:59:17.566329 fileshare.go:44: [Info] Stopping fileshare
+2024/07/05 06:59:17.566648 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/05 06:59:18.067230 main.go:200: [Info] Norduser daemon has stopped
+2024/07/05 08:34:40.856864 main.go:358: [Info] Norduser daemon has started
+2024/07/05 08:34:43.857471 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/06 01:57:24.915977 main.go:177: [Info] Received signal: terminated
+2024/07/06 01:57:24.916076 fileshare.go:44: [Info] Stopping fileshare
+2024/07/06 01:57:24.916295 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/06 01:57:25.416817 main.go:200: [Info] Norduser daemon has stopped
+2024/07/06 12:01:38.172253 main.go:358: [Info] Norduser daemon has started
+2024/07/06 12:01:41.173530 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/06 12:24:15.030203 main.go:177: [Info] Received signal: terminated
+2024/07/06 12:24:15.030331 fileshare.go:44: [Info] Stopping fileshare
+2024/07/06 12:24:15.030654 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/06 12:24:15.531705 main.go:200: [Info] Norduser daemon has stopped
+2024/07/06 12:25:02.133018 main.go:358: [Info] Norduser daemon has started
+2024/07/06 12:25:05.133423 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/08 01:25:19.883884 main.go:177: [Info] Received signal: terminated
+2024/07/08 01:25:19.884528 fileshare.go:44: [Info] Stopping fileshare
+2024/07/08 01:25:19.885429 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/08 01:25:20.386108 main.go:200: [Info] Norduser daemon has stopped
+2024/07/08 22:09:28.163193 main.go:358: [Info] Norduser daemon has started
+2024/07/08 22:09:31.163890 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/10 22:56:11.387452 main.go:177: [Info] Received signal: terminated
+2024/07/10 22:56:11.387934 fileshare.go:44: [Info] Stopping fileshare
+2024/07/10 22:56:11.388193 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/10 22:56:11.889223 main.go:200: [Info] Norduser daemon has stopped
+2024/07/14 20:02:38.567207 main.go:358: [Info] Norduser daemon has started
+2024/07/14 20:02:41.568354 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/19 00:17:31.513203 main.go:177: [Info] Received signal: terminated
+2024/07/19 00:17:31.514732 fileshare.go:44: [Info] Stopping fileshare
+2024/07/19 00:17:31.519337 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/19 00:17:32.019776 main.go:200: [Info] Norduser daemon has stopped
+2024/07/19 00:22:41.099977 main.go:358: [Info] Norduser daemon has started
+2024/07/19 00:22:44.101725 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/19 00:28:20.142206 main.go:177: [Info] Received signal: terminated
+2024/07/19 00:28:20.142342 fileshare.go:44: [Info] Stopping fileshare
+2024/07/19 00:28:20.142633 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/19 00:28:20.643134 main.go:200: [Info] Norduser daemon has stopped
+2024/07/19 08:57:20.900927 main.go:358: [Info] Norduser daemon has started
+2024/07/19 08:57:23.901693 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/21 01:10:37.034297 main.go:177: [Info] Received signal: terminated
+2024/07/21 01:10:37.034403 fileshare.go:44: [Info] Stopping fileshare
+2024/07/21 01:10:37.034689 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/21 01:10:37.535318 main.go:200: [Info] Norduser daemon has stopped
+2024/07/21 01:20:12.109925 main.go:358: [Info] Norduser daemon has started
+2024/07/21 01:20:15.110878 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/22 01:13:44.318832 main.go:177: [Info] Received signal: terminated
+2024/07/22 01:13:44.318933 fileshare.go:44: [Info] Stopping fileshare
+2024/07/22 01:13:44.319240 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/22 01:13:44.820303 main.go:200: [Info] Norduser daemon has stopped
+2024/07/22 19:01:31.175966 main.go:358: [Info] Norduser daemon has started
+2024/07/22 19:01:34.177407 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/22 23:53:35.906425 main.go:177: [Info] Received signal: terminated
+2024/07/22 23:53:35.906563 fileshare.go:44: [Info] Stopping fileshare
+2024/07/22 23:53:35.906812 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/22 23:53:36.407622 main.go:200: [Info] Norduser daemon has stopped
+2024/07/23 19:28:41.408435 main.go:358: [Info] Norduser daemon has started
+2024/07/23 19:28:44.408762 notifications.go:56: [Error] Failed to start dbus notifier: exec: "dbus-launch": executable file not found in $PATH
+2024/07/24 00:13:56.228199 main.go:177: [Info] Received signal: terminated
+2024/07/24 00:13:56.228314 fileshare.go:44: [Info] Stopping fileshare
+2024/07/24 00:13:56.228583 fileshare.go:46: [Error] failed to stop fileshare on shutdown:  stopping process: rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial unix /tmp/fileshare.sock: connect: no such file or directory"
+2024/07/24 00:13:56.729195 main.go:200: [Info] Norduser daemon has stopped

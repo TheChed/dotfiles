@@ -1,0 +1,150 @@
+00:00:00.002138 main     VirtualBox XPCOM Server 7.1.0 r164728 linux.amd64 (Sep 11 2024 20:08:27) release log
+00:00:00.002139 main     Log opened 2024-09-22T09:42:53.954517000Z
+00:00:00.002139 main     Build Type: release
+00:00:00.002140 main     OS Product: Linux
+00:00:00.002141 main     OS Release: 6.10.10-arch1-1
+00:00:00.002141 main     OS Version: #1 SMP PREEMPT_DYNAMIC Thu, 12 Sep 2024 17:21:02 +0000
+00:00:00.002161 main     DMI Product Name: X570 AORUS MASTER
+00:00:00.002168 main     DMI Product Version: -CF
+00:00:00.002171 main     Firmware type: UEFI
+00:00:00.002577 main     Secure Boot: Disabled
+00:00:00.002607 main     Host RAM: 32038MB (31.2GB) total, 29337MB (28.6GB) available
+00:00:00.002608 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.002609 main     Process ID: 5734
+00:00:00.002609 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.004403 main     IPC socket path: /tmp/.vbox-stephan-ipc/ipcd
+00:00:00.031406 DCon01   VirtualBox: object creation starts
+00:00:00.032886 DCon01   Home directory: '/home/stephan/.config/VirtualBox'
+00:00:00.033500 DCon01   Loading settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.040087 DCon01   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
+00:00:00.040135 DCon01   Successfully initialised host USB using sysfs
+00:00:00.041699 DCon01   Failed to retrive disk info: getDiskName(/dev/mapper/VOL0-lv_root) --> VOL0-lv_root
+00:00:00.054769 DCon01   HostDnsMonitor: initializing
+00:00:00.054861 DCon01   NAT: resolv.conf: nameserver 192.168.2.1
+00:00:00.054865 DCon01   HostDnsMonitor: updating information
+00:00:00.054869 DCon01   HostDnsMonitor: old information
+00:00:00.054871 DCon01     no server entries
+00:00:00.054872 DCon01     no domain set
+00:00:00.054873 DCon01     no search string entries
+00:00:00.054874 DCon01   HostDnsMonitor: new information
+00:00:00.054875 DCon01     server 1: 192.168.2.1
+00:00:00.054877 DCon01     no domain set
+00:00:00.054878 DCon01     no search string entries
+00:00:00.057942 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.062716 DCon01   Platform architecture set to 'x86'
+00:00:00.663877 DCon01   Loading settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:00:00.664280 DCon01   Platform architecture set to 'x86'
+00:00:00.665151 DCon01   Platform architecture set to 'x86'
+00:00:00.744462 DCon01   Loading settings file "/home/stephan/LOCALDATA/VM/Win10/Win10.vbox" with version "1.19-linux"
+00:00:00.745167 DCon01   Platform architecture set to 'x86'
+00:00:00.745179 DCon01   Platform architecture set to 'x86'
+00:00:00.745255 DCon01   Platform architecture set to 'x86'
+00:00:00.745372 DCon01   Platform architecture set to 'x86'
+00:00:00.745810 DCon01   VirtualBox: object created
+00:00:01.538035 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.179023 DCon02   Launched VM: 217279120 pid: 5789 (0x169d) frontend: GUI/Qt name: ArchlinuxVM
+00:00:04.254947 DCon02   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.381480 DCon06   Platform architecture set to 'x86'
+00:00:04.400784 DCon10   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.580770 DCon10   Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.582858 DCon10   Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+00:00:04.771362 DCon10   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:04.811390 DCon10   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.157010 DCon09   Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.159132 DCon09   Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+00:00:05.771270 DCon10   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:05.807646 DCon12   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.813223 DCon06   Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:00:05.871415 DCon06   Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+00:00:05.888576 DCon01   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:05.950809 DCon10   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.951661 DCon10   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.952597 DCon10   HostDnsMonitorProxy::GetDomainName: no domain set
+00:00:05.952668 DCon10   HostDnsMonitorProxy::GetNameServers:
+00:00:05.952670 DCon10     name server 1: 192.168.2.1
+00:00:05.952742 DCon10   HostDnsMonitorProxy::GetSearchStrings:
+00:00:05.952743 DCon10     no search string entries
+00:00:05.966913 DCon09   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.998455 DCon09   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:06.097348 DCon09   Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:06.099262 DCon09   Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+00:00:06.199207 DCon02   Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:00:06.509210 DCon02   Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+00:00:06.552732 DCon12   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:28.871493 DCon11   Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:00:29.022709 DCon11   Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+00:00:44.737559 DCon14   Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:00:45.673706 DCon14   Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+00:12:49.038564 DCon51   Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:12:49.061870 DCon51   Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+00:12:49.970434 DCon45   Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:12:49.990818 DCon45   Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+00:36:37.970364 DCon111  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:36:37.995564 DCon111  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+00:36:38.470951 DCon100  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:36:38.498614 DCon100  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+00:36:39.182232 DCon111  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:36:39.205612 DCon111  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+00:36:39.569684 DCon100  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+00:36:39.601090 DCon100  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+01:11:50.794151 DCon194  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+01:11:50.972406 DCon194  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+01:11:52.370851 DCon196  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+01:11:52.403141 DCon196  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+01:24:03.784286 DCon218  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+01:24:03.818441 DCon218  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+01:24:10.593274 DCon224  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+01:24:10.613933 DCon224  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+03:13:49.087003 USBPROXY USBProxyBackendLinux: Device 05ac:12a8 (sysfs:/sys/devices/pci0000:00/0000:00:01.2/0000:02:00.0/0000:03:08.0/0000:07:00.3/usb3/3-4//device:/dev/vboxusb/003/007) isn't accessible. giving udev a few seconds to fix this...
+06:08:26.496998 DCon852  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+06:08:26.770069 DCon852  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+06:08:28.070756 DCon852  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+06:08:28.122700 DCon852  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+06:36:18.170375 DCon917  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+06:36:18.209961 DCon917  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+06:36:19.369776 DCon913  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+06:36:19.702649 DCon913  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+06:48:13.595671 DCon938  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+06:48:13.890363 DCon938  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+06:48:15.354452 DCon955  Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+06:48:15.370929 DCon955  Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+08:04:46.478379 USBPROXY USBProxyBackendLinux: Device 05ac:12a8 (sysfs:/sys/devices/pci0000:00/0000:00:01.2/0000:02:00.0/0000:03:08.0/0000:07:00.3/usb3/3-4//device:/dev/vboxusb/003/008) isn't accessible. giving udev a few seconds to fix this...
+09:06:14.570115 DCon1272 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+09:06:14.686535 DCon1272 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+09:06:15.999586 DCon1264 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+09:06:16.020581 DCon1264 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+11:12:28.681224 DCon1563 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+11:12:29.773903 DCon1563 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+11:12:30.177182 DCon1558 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+11:12:30.339439 DCon1558 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+11:17:58.371220 DCon1577 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+11:17:58.400063 DCon1577 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+11:17:59.370412 DCon1581 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+11:17:59.379066 DCon1581 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+11:19:10.969335 DCon1586 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+11:19:11.131049 DCon1586 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+11:19:12.070286 DCon1578 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+11:19:12.088540 DCon1578 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+11:23:02.458277 DCon1598 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+11:23:02.620619 DCon1598 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+11:23:03.470509 DCon1587 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+11:23:03.498018 DCon1587 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+12:19:43.069931 DCon1749 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+12:19:43.091320 DCon1749 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+12:19:44.370434 DCon1746 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+12:19:44.389457 DCon1746 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+13:32:43.860753 DCon1948 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+13:32:44.436769 DCon1948 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+13:33:01.988459 DCon1952 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+13:33:02.156824 DCon1952 Saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox" with version "1.19-linux"
+13:33:02.183978 DCon1952 Finished saving settings file "/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"
+13:33:02.194548 DCon1952 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+13:33:02.196061 DCon1952 ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+13:33:08.169367 main     VirtualBox: object deletion starts
+13:33:08.169408 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+13:33:08.169657 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/stephan/LOCALDATA/VM/Win10/Snapshots/{66206d78-6d33-4d91-80c4-87b6353f592b}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+13:33:08.169807 main     ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={6cc49055-dad4-4496-85cf-3f76bcb3b5fa} aComponent={SnapshotWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+13:33:08.170222 main     HostDnsMonitor: shutting down ...
+13:33:08.174849 main     HostDnsMonitor: shut down
+13:33:08.198715 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+13:33:08.198754 main     VirtualBox: object deleted

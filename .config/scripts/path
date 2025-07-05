@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#takes the content of the $PATH environment variable and replaces every : wqith a newline
+
+echo -e ${PATH//:/\\n}
+

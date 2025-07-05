@@ -1,0 +1,94 @@
+{
+  "palette": {},
+  "radar": {
+    "psrRange": {
+      "horizontal": 10,
+      "ceiling": 60000,
+      "floor": -200
+    },
+    "ssrRange": {
+      "horizontal": 10,
+      "ceiling": 60000,
+      "floor": -200
+    },
+    "rangeRingDistance": 20,
+    "vectoringTConfiguration": {
+      "centreLineLength": 12,
+      "approachGatesDistance": 5,
+      "interceptDistance": 4,
+      "interceptAngle": 30,
+      "baseLegDistance": 3
+    },
+    "zoomSpeed": 1,
+    "zoomCenter": false,
+    "zoomRange": true,
+    "hiddenNavaids": [],
+    "hiddenGeoAreas": []
+  },
+  "mainScope": {
+    "showPrefBar": true,
+    "showPrefsInset": true,
+    "showPrefsTraffic": true,
+    "showPrefsGeo": true,
+    "showPrefsNav": true,
+    "visibleLayers": {
+      "RUNWAY": false,
+      "DEFA": true,
+      "VOR": true,
+      "AIRPORT": true,
+      "RESTRICTED": true,
+      "PROHIBITED": true,
+      "DANGER": true,
+      "POLYLINE": true,
+      "BUILDING": false,
+      "PIER": false,
+      "APRON": false,
+      "TAXIWAY": true,
+      "TAXIWAYCENTER": false,
+      "STOPLINE": true,
+      "TAXILABELS": false,
+      "GATES": false,
+      "RUNWAYCENTER": true,
+      "COAST": false
+    }
+  },
+  "traffic": {
+    "speedVectorMinutes": 1,
+    "vfrSquawk": 1200,
+    "trafficRingDistance": 0.2,
+    "transitionAltitude": 6000,
+    "transitionLevel": 8000,
+    "responseTime": 0,
+    "historyCount": 5,
+    "historyIntervalSeconds": 5,
+    "refreshRate": 10
+  },
+  "audioNotifications": {
+    "notifyOnAtcMessage": false,
+    "notifyOnBayRequest": false,
+    "notifyOnBroadcastMessage": false,
+    "notifyOnPrivateMessage": false,
+    "notifyOnDatalink": false,
+    "notifyOnGuardMessage": false,
+    "notifyOnHandoffApproved": false,
+    "notifyOnHandoffRequested": false,
+    "notifyOnRadioPrimaryMessage": false,
+    "notifyOnRadioMessage": false,
+    "notifyOnTrafficAlert": false,
+    "notifyOnWallopRequest": false
+  },
+  "communication": {
+    "frequencyCount": 1,
+    "autoAcceptTransfer": false,
+    "clearLabelsOnRelease": false,
+    "releaseMessage": "None",
+    "transferMessage": "None",
+    "transferAcceptMessage": false
+  },
+  "controlledAirports": {},
+  "sector": "FR_LFMM.zip",
+  "showInfoLine": true,
+  "multiQdm": false,
+  "calculateQdmTurns": false,
+  "enableVera": false
+}

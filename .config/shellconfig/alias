@@ -1,0 +1,7 @@
+alias v='nvim'
+alias cathay='cd /home/stephan/NAS/DATA/stephan/FM/Cathay/2022-2023'
+alias cdps='cd /home/stephan/Documents/C/src/PSXMSFS'
+alias cdnz='cd /home/stephan/Documents/C/src/NZBIDX' 
+alias cdf='cd /home/stephan/LOCALDATA/frost/downloads'
+alias ls='exa --icons -g --group-directories-first'
+alias la='exa --icons -a --group-directories-first'
