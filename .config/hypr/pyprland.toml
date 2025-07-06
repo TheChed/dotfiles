@@ -1,0 +1,18 @@
+[pyprland]
+plugins = [
+"scratchpads"
+    ]
+
+    [scratchpads.term]
+animation = "fromTop"
+command = "kitty --class kitty-dropterm"
+class = "kitty-dropterm"
+size = "75% 60%"
+position = "12% 20%"
+
+    [scratchpads.yazi]
+animation = "fromTop"
+command = "kitty --class yazi-dropterm yazi"
+class = "yazi-dropterm"
+size = "75% 60%"
+position = "12% 20%"

@@ -57,13 +57,13 @@
 "xsane-batch-window-y-position"
 420
 "xsane-preview-window-x-position"
-3
+0
 "xsane-preview-window-y-position"
-31
+0
 "xsane-preview-window-width"
-1398
+1644
 "xsane-preview-window-height"
-1402
+1136
 "xsane-gamma"
 52725
 "xsane-gamma-red"
@@ -107,7 +107,7 @@
 "xsane-negative"
 0
 "xsane-show-preview"
-1
+0
 "xsane-enable-color-management"
 0
 "xsane-scanner-default-color-icm-profile"

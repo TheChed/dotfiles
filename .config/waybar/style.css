@@ -80,8 +80,17 @@ button:hover {
     border-bottom: 2px solid @maroon;
 }
 
+#disk{
+    color: @teal;
+    border-bottom: 2px solid @teal;
+}
+
+#temperature.critical{
+    color: @red;
+    border-bottom: 2px solid @red;
+}
 #clock.date {
-    color: @mauve;
+    color: @blue;
     border-bottom: 2px solid @mauve;
 }
 

@@ -1,2 +1,6 @@
+*.drc
 *.log
 *.sab
+*.db
+log
+state
