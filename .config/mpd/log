@@ -24483,3 +24483,62 @@ Mar 24 01:18:45 : player: played "Petrucciani Michel/Days of Wine and Roses_ The
 2025-07-05T19:57:41 player: played "Cash Johnny/At Folsom Prison/08 Cash Johnny - Send a Picture of Mother.mp3"
 2025-07-05T20:01:12 player: played "Jobim, Vinicius, Toquinho/A Felicidade/05 Samba em Preludio.mp3"
 2025-07-05T20:07:06 player: played "Davis Miles/Warner Jazz Les Incontournables/03 Oleo.mp3"
+2025-07-06T01:38:41 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:38:41 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:38:43 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:38:43 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:39:07 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:39:07 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:44:20 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:44:20 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:44:22 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:44:22 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:44:23 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:44:23 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:44:23 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:44:23 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:44:24 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:44:24 exception: Failed to open "My Pulse Output" (pulse); pa_context_connect() has failed: Connection refused
+2025-07-06T01:49:57 player: played "Wagner Richard/Der Ring des Nibelungen/01 Das Rheingold/cd 1/Wagner Richard/Wagner Richard/Richard Wagner - Das Rheingold - Solti-CD 1.mp3"
+2025-07-06T01:55:05 player: played "Wagner Richard/Der Ring des Nibelungen/01 Das Rheingold/cd 1/Wagner Richard/Wagner Richard/Richard Wagner - Das Rheingold - Solti-CD 1.mp3"
+2025-07-06T02:09:24 output: Failed to play on "My Pulse Output" (pulse): suspended
+2025-07-06T02:09:24 exception: Failed to open audio output
+2025-07-06T02:09:24 player: played "Wagner Richard/Der Ring des Nibelungen/01 Das Rheingold/cd 1/Wagner Richard/Wagner Richard/Richard Wagner - Das Rheingold - Solti-CD 1.mp3"
+2025-07-06T02:14:52 player: played "Wagner Richard/Der Ring des Nibelungen/01 Das Rheingold/cd 1/Wagner Richard/Wagner Richard/Richard Wagner - Das Rheingold - Solti-CD 1.mp3"
+2025-07-06T02:21:31 player: played "Bombes 2 Bal/Danse avec ta grand-mère/10 Lo ben e lo mal.mp3"
+2025-07-06T02:25:49 output: Failed to play on "My Pulse Output" (pulse): suspended
+2025-07-06T02:25:49 exception: Failed to open audio output
+2025-07-06T02:25:49 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T02:38:57 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T03:05:20 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T03:09:02 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T03:11:32 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T03:13:42 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T12:43:57 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T12:44:10 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T12:45:45 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T12:45:59 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T12:46:57 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T12:48:12 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T12:48:30 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T12:49:46 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T12:50:05 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T12:56:50 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T13:04:42 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T13:07:37 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T13:08:10 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T13:13:38 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T13:19:07 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T13:19:25 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T13:25:34 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T13:55:46 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T13:59:30 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T14:14:47 player: played "Debussy Claude/La Mer/03 La Mer_ Dialogue du vent et de la mer.mp3"
+2025-07-06T14:23:07 player: played "Fabulous Trobadors/Duels de tchatche et autres trucs du folklore toulousain/01 Bonne nuit.mp3"
+2025-07-06T14:25:48 player: played "Sex Pistols/Never Mind the Bollocks Here's the Sex Pistols/04 Liar.mp3"
+2025-07-06T14:28:19 player: played "Tatum Art/Over the Rainbow/02 I Would Do Anything for You.mp3"
+2025-07-06T14:32:08 player: played "Lisa Ekdahl/When Did You Leave Heaven/04 Love for Sale.mp3"
+2025-07-06T14:33:33 player: played "Lisa Ekdahl/When Did You Leave Heaven/04 Love for Sale.mp3"
+2025-07-06T14:36:04 player: played "Haendel/Ariodante/3-05 Act 3_ scene II - Aria Dalinda - Neghittosi or voi che fate_.mp3"
+2025-07-06T14:36:38 player: played "Schubert Franz/21 Lieder - Fischer-Dieskau/10 Der Tod und das Mädchen, D 531.mp3"
+2025-07-06T14:39:20 player: played "Schubert Franz/21 Lieder - Fischer-Dieskau/10 Der Tod und das Mädchen, D 531.mp3"

@@ -32,7 +32,6 @@ export IMAGE="sxiv"
 export COLORTERM="truecolor"
 export OPENER="xdg-open"
 export PAGER="less"
-#export WM="dwm"
 
 #Paths
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
