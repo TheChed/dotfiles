@@ -3,12 +3,33 @@
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["mpd"],
   //"modules-right": ["network", "pulseaudio", "battery", "clock","keyboard-state"],
-  "modules-right": ["custom/keyb","temperature" , "pulseaudio", "battery", "disk","disk#disk2","clock"],
+  "modules-right": ["keyboard-state","custom/keyb","temperature" , "pulseaudio", "battery", "disk","disk#disk2","clock"],
+  
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%d %b %Y %H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
+     "hyprland/workspaces": {
+         "disable-scroll": true,
+         "all-outputs": true,
+         "warp-on-scroll": false,
+         "format": "{name}: {icon}",
+         "format-icons": {
+             "1": " ",
+             "2": " ",
+             "3": " ",
+             "4": " ",
+             "5": " ",
+             "8": "󰛮",
+             "9": " ",
 
+         }
+  //       "persistent-workspaces": {
+   //     "3": [], // Always show a workspace with name '3', on all outputs if it does not exists
+    //    "4": [], // Always show a workspace with name '4', on output 'eDP-1' if it does not exists
+     //   "5": [] // Always show a workspace with name '5', on outputs 'eDP-1' and 'DP-2' if it does not exists
+    //}
+     },
   "mpd": {
         "format": "{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
         "format-paused": "{stateIcon} {artist} - {album} - {title}",
@@ -71,14 +92,15 @@
   },
 "keyboard-state": {
     "numlock": true,
-    "capslock": true,
+    "capslock": false,
     "format": {
         "numlock": "N {icon}",
         "capslock": "C {icon}"                                                                                                                                                       
     },
     "format-icons": {
-        "locked": "",
-        "unlocked": ""
+        "locked": " ",
+        "unlocked": "󰽽 "
+        //"unlocked": " "
     }
 },
 "disk": {

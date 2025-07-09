@@ -1,10 +1,11 @@
 @import "mocha.css"; 
 
 * {
-    font-family: "MesloLGS Nerd Font Mono Bold";
+    /*font-family: "MesloLGS Nerd Font Mono Bold";*/
+    font-family: "JetBrains Mono NL";
     font-size: 16px;
     min-height: 0;
-    font-weight: bold;
+  /*  font-weight: bold;*/
 }
 
 window#waybar {
@@ -15,11 +16,13 @@ window#waybar {
     transition-duration: 0.1s;
     border-bottom: 1px solid @overlay1;
 }
-
+#mpd {
+    font-weight: bold;
+}    
 #window {
     margin: 8px;
-    padding-left: 8;
-    padding-right: 8;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 button {

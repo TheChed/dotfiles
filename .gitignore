@@ -1,6 +1,8 @@
 *.drc
+*.bak
 *.log
 *.sab
 *.db
 log
 state
+.sabnzbd.ini/admin/watched_data2.sab
