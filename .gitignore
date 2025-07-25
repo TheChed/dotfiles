@@ -5,4 +5,5 @@
 *.db
 log
 state
+.config_old
 .sabnzbd.ini/admin/watched_data2.sab

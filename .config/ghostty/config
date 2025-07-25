@@ -1,6 +1,0 @@
-theme = catppuccin-mocha
-gtk-titlebar = false
-font-family="JetBrainsMono Font Mono"
-#font-family="Iosevka"
-font-size=18
-
