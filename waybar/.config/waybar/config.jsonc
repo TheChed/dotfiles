@@ -13,7 +13,11 @@
          "disable-scroll": true,
          "all-outputs": true,
          "warp-on-scroll": false,
-         "format": "{name}: {icon}",
+         //"format": "{name}:{icon}",
+         "format": "{name}",
+         "persistent-workspaces": {
+    "*":[1,2,3,4,5,6,7,8,9]
+    },
          "format-icons": {
              "1": " ",
              "2": " ",
@@ -22,13 +26,23 @@
              "5": " ",
              "8": "󰛮",
              "9": " ",
+      "default": ""
+    }
+         //"format": "{name}: {icon}",
+         //"format-icons": {
+         //    "1": " ",
+         //    "2": " ",
+         //    "3": " ",
+         //    "4": " ",
+         //    "5": " ",
+         //    "8": "󰛮",
+         //    "9": " ",
 
-         }
-  //       "persistent-workspaces": {
-   //     "3": [], // Always show a workspace with name '3', on all outputs if it does not exists
+         //}, "persistent-workspaces": {
+     //   "5": [], // Always show a workspace with name '3', on all outputs if it does not exists
     //    "4": [], // Always show a workspace with name '4', on output 'eDP-1' if it does not exists
      //   "5": [] // Always show a workspace with name '5', on outputs 'eDP-1' and 'DP-2' if it does not exists
-    //}
+  //  }
      },
   "mpd": {
         "format": "{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",

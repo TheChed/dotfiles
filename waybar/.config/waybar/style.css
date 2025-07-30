@@ -1,11 +1,9 @@
 @import "mocha.css"; 
 
 * {
-    /*font-family: "MesloLGS Nerd Font Mono Bold";*/
     font-family: "JetBrains Mono NL";
     font-size: 16px;
     min-height: 0;
-  /*  font-weight: bold;*/
 }
 
 window#waybar {
@@ -34,11 +32,13 @@ button {
 button:hover {
     background: inherit;
     color: @mauve;
+    color: @overlay0;
     border-top: 2px solid @mauve;
 }
 
 #workspaces button {
     padding: 0 4px;
+    color: @mauve;
 }
 
 #workspaces button.focused {
@@ -53,8 +53,8 @@ button:hover {
     border-top: 2px solid @mauve;
 }
 
-#workspaces button.urgent {
-    background-color: #eb4d4b;
+#workspaces button.empty{
+   color: @overlay1;
 }
 
 #pulseaudio,
