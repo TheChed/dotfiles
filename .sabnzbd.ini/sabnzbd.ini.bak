@@ -420,6 +420,7 @@ filter16 = amat, 3, None, A, privatesociety, -100, 1
 filter17 = eros, 3, None, A, pinkoclub, -100, 1
 filter18 = eros, 3, None, A, legalporno, -100, 1
 filter19 = amat, 3, None, A, centoxcento, -100, 1
+filter20 = gay, "", None, A, Dreamtranny, -100, 1
 [sorters]
 [[Movie Sorting]]
 name = Movie Sorting

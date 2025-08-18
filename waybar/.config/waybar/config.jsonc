@@ -119,8 +119,8 @@
 },
 "disk": {
     "interval": 30,
-    "format": "{path} {percentage_used}%",
-    "path": "/"
+    "format": "~/ {percentage_used}%",
+    "path": "/home/stephan"
 },
 "disk#disk2": {
     "interval": 30,
