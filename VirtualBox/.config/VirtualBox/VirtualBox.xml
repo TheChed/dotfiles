@@ -4,29 +4,38 @@
 ** If you make changes to this file while any VirtualBox related application
 ** is running, your changes will be overwritten later, without taking effect.
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
+**
+** Written by VirtualBox 7.2.8 (r173730)
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.12-linux">
   <Global>
     <ExtraData>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=51005ae0-0d67-4ec4-a9a3-f16cc85a0686"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="3,31,1398,1402"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=7cc1ff1a-09b3-492b-a160-e42609826a0a"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="12,40,2536,1388"/>
+      <ExtraDataItem name="GUI/MediumSelector/DialogGeometry" value="74,213,1268,1041"/>
       <ExtraDataItem name="GUI/NotificationCenter/Order" value="Ascending"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/stephan/Downloads"/>
-      <ExtraDataItem name="GUI/RecentListCD" value="/home/stephan/Downloads/Win10_22H2_EnglishInternational_x64v1.iso,/home/stephan/Downloads/archlinux-2023.09.01-x86_64.iso"/>
+      <ExtraDataItem name="GUI/RecentFolderHD" value="/home/stephan/LOCALDATA/VM/FreeBSD"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/stephan/Downloads/FreeBSD-15.0-RELEASE-amd64-dvd1.iso,--,/home/stephan/Downloads/FreeBSD-15.0-RELEASE-amd64-disc1.iso,/home/stephan/Downloads/FreeBSD-14.3-RELEASE-amd64-disc1.iso,/home/stephan/Downloads/Win10_22H2_EnglishInternational_x64v1.iso"/>
+      <ExtraDataItem name="GUI/RecentListHD" value="/home/stephan/LOCALDATA/VM/FreeBSD/2Go_2.vdi,/home/stephan/LOCALDATA/VM/FreeBSD/2Go_1.vdi,/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD_2.vdi,/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD_1.vdi"/>
       <ExtraDataItem name="GUI/Settings/ExpertMode" value="true"/>
+      <ExtraDataItem name="GUI/SnapshotManager/Details/Expanded" value="true"/>
+      <ExtraDataItem name="GUI/SoftKeyboardDialogGeometry" value="12,40,1392,1388"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="1517,1042"/>
-      <ExtraDataItem name="GUI/SuppressMessages" value="showRuntimeError.warning.DvdOrFloppyImageInaccessible"/>
-      <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Extensions,Details"/>
+      <ExtraDataItem name="GUI/SuppressMessages" value="showRuntimeError.warning.DvdOrFloppyImageInaccessible,confirmPowerOffMachine,confirmInputCapture,remindAboutAutoCapture,remindAboutMouseIntegration,confirmGoingFullscreen,confirmGoingScale"/>
+      <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Machines,Details"/>
+      <ExtraDataItem name="GUI/VirtualMediaManager/Details/Expanded" value="true"/>
     </ExtraData>
     <MachineRegistry>
-      <MachineEntry uuid="{51005ae0-0d67-4ec4-a9a3-f16cc85a0686}" src="/home/stephan/LOCALDATA/VM/ArchlinuxVM/ArchlinuxVM.vbox"/>
-      <MachineEntry uuid="{75beb2a4-1bed-4ce2-a06e-8be30cb54941}" src="/home/stephan/LOCALDATA/VM/Win10/Win10.vbox"/>
+      <MachineEntry uuid="{7cc1ff1a-09b3-492b-a160-e42609826a0a}" src="/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"/>
+      <MachineEntry uuid="{8dfad013-4038-4457-84f4-3e39cb36604f}" src="/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>
         <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>
       </DHCPServers>
     </NetserviceRegistry>
+    <SharedFolders/>
     <Updates enabled="false">
       <Host enabled="false" channel="1" checkFreqSec="86400" repoUrl="https://update.virtualbox.org" checkCount="0"/>
     </Updates>

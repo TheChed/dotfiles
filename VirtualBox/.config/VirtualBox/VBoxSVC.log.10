@@ -1,0 +1,17 @@
+54:16:57.773173 DCon2515 Log continuation - Log started 2026-05-25T12:13:56.129581000Z
+54:16:57.859804 DCon2515 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+54:17:10.043436 DCon2515 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+54:17:11.409989 DCon2510 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+54:17:11.411633 DCon2527 ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Stopping)}, preserve=false aResultDetail=0
+54:17:11.445786 DCon2527 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+54:17:11.467805 DCon2527 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+54:17:11.488844 DCon2526 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+54:17:11.668726 DCon2526 ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+54:17:20.483587 DCon2515 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+54:17:20.518569 DCon2515 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+54:17:26.537140 main     VirtualBox: object deletion starts
+54:17:26.537236 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+54:17:26.539212 main     HostDnsMonitor: shutting down ...
+54:17:26.542747 main     HostDnsMonitor: shut down
+54:17:26.555961 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+54:17:26.556028 main     VirtualBox: object deleted
