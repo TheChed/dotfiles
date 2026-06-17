@@ -1,1 +1,3 @@
-return { "folke/which-key.nvim", opts = {} }
+
+vim.pack.add({'https://github.com/folke/which-key.nvim'})
+

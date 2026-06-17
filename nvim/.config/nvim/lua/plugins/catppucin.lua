@@ -1,12 +1,2 @@
-return {
-	"catppuccin/nvim",
-	name = "catppuccin",
-	priority = 1000,
-	opts = {
-		flavour = "mocha",
-		background = {
-			light = "latte",
-			dark = "mocha",
-		},
-    },
-}
+
+vim.pack.add({ { src = "https://github.com/catppuccin/nvim", name = "catppuccin" }})

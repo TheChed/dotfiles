@@ -44,3 +44,9 @@ vim.g.vimtex_view_general_viewer = "mupdf"
 vim.g.vimtex_quickfix_open_on_warning = "N"
 vim.g.vimtex_quickfix_mode = 1
 
+--For linting in LSP
+vim.opt.complete:append("o")
+vim.opt.completeopt = { "menuone", "noselect" }
+
+vim.o.pumheight = 5
+vim.o.pumborder = "rounded"

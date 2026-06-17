@@ -1,31 +1,43 @@
--- Bootstrap lazy.nvim
-local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
-if not (vim.uv or vim.loop).fs_stat(lazypath) then
-	local lazyrepo = "https://github.com/folke/lazy.nvim.git"
-	local out = vim.fn.system({ "git", "clone", "--filter=blob:none", "--branch=stable", lazyrepo, lazypath })
-	if vim.v.shell_error ~= 0 then
-		vim.api.nvim_echo({
-			{ "Failed to clone lazy.nvim:\n", "ErrorMsg" },
-			{ out, "WarningMsg" },
-			{ "\nPress any key to exit..." },
-		}, true, {})
-		vim.fn.getchar()
-		os.exit(1)
-	end
-end
-vim.opt.rtp:prepend(lazypath)
-
--- See `:help vim.highlight.on_yank()`
-local highlight_group = vim.api.nvim_create_augroup("YankHighlight", { clear = true })
-vim.api.nvim_create_autocmd("TextYankPost", {
-	callback = function()
-		vim.highlight.on_yank()
-	end,
-	group = highlight_group,
-	pattern = "*",
+vim.pack.add({
+    'https://github.com/nvim-tree/nvim-web-devicons',
+    'https://github.com/neovim/nvim-lspconfig',
+    'https://github.com/nvim-treesitter/nvim-treesitter',
+    'https://github.com/lukas-reineke/indent-blankline.nvim',
 })
 
+
+
+
+require("plugins/lualine")   --status line
+--require("plugins/noice")     --UI messages replacement
+require("plugins/gitsigns")  --Enable git symbols
+require("plugins/snacks")    -- Multiple usefulplugins
+require("plugins/indent")
+require("plugins/telescope") -- fuzzy finder files / buffers
+require("plugins/mini")
+require("plugins/catppucin") -- Colorscheme
+require("plugins/neotree")   -- File browser
+require("plugins/whichkey")  -- recap of key mappings
+
+-- LSP
+vim.lsp.enable({ 'clangd', 'lua_ls' })
+--
+-- Personnal settings
 require("vim-options-perso")
 require("keymaps-perso")
-require("lazy").setup("plugins")
+require("autocommand")
+
+
+-- keep only TreeSitter ssyntax highligh
+vim.cmd('syntax off')
+
+
+--For linting in LSP
+
+vim.opt.complete:append("o")
+vim.opt.completeopt = { "menuone", "noselect" }
+
+vim.o.pumheight = 5
+vim.o.pumborder = "rounded"
+-- Enable colorscheme
 vim.cmd.colorscheme("catppuccin")

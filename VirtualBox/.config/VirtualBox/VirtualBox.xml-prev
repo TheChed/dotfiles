@@ -18,7 +18,7 @@
       <ExtraDataItem name="GUI/RecentFolderHD" value="/home/stephan/LOCALDATA/VM/FreeBSD"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/home/stephan/Downloads/FreeBSD-15.0-RELEASE-amd64-dvd1.iso,--,/home/stephan/Downloads/FreeBSD-15.0-RELEASE-amd64-disc1.iso,/home/stephan/Downloads/FreeBSD-14.3-RELEASE-amd64-disc1.iso,/home/stephan/Downloads/Win10_22H2_EnglishInternational_x64v1.iso"/>
       <ExtraDataItem name="GUI/RecentListHD" value="/home/stephan/LOCALDATA/VM/FreeBSD/2Go_2.vdi,/home/stephan/LOCALDATA/VM/FreeBSD/2Go_1.vdi,/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD_2.vdi,/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD_1.vdi"/>
-      <ExtraDataItem name="GUI/Settings/ExpertMode" value="true"/>
+      <ExtraDataItem name="GUI/Settings/ExpertMode" value="false"/>
       <ExtraDataItem name="GUI/SnapshotManager/Details/Expanded" value="true"/>
       <ExtraDataItem name="GUI/SoftKeyboardDialogGeometry" value="12,40,1392,1388"/>
       <ExtraDataItem name="GUI/SplitterSizes" value="1517,1042"/>
