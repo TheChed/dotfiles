@@ -1,288 +1,84 @@
-24:22:28.031398 DCon1886 Log continuation - Log started 2026-05-27T21:39:09.112343000Z
-24:22:28.031429 DCon1887 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-24:22:28.210087 DCon1886 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:22:28.243718 DCon1887 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-24:22:41.396856 DCon1888 Unattended: RTVfsQueryPathInfo(, '\OS2IMAGE/DISK_0/OS2LDR' (from OS2SE20.SRC),) -> VERR_PATH_NOT_FOUND, fMode=0x0
-24:23:30.725078 createBase Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:23:30.754447 createBase Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:23:30.759042 DCon1886 Platform architecture set to 'x86'
-24:23:30.759119 DCon1886 Platform architecture set to 'x86'
-24:23:30.759126 DCon1886 Platform architecture set to 'x86'
-24:23:30.759496 DCon1886 Platform architecture set to 'x86'
-24:23:30.760502 DCon1892 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:23:30.783212 DCon1892 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:23:30.783296 DCon1892 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:23:30.797008 DCon1892 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:23:30.797931 DCon1887 Platform architecture set to 'x86'
-24:23:30.800101 DCon1892 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:23:30.812647 DCon1892 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:23:30.813049 DCon1892 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:23:30.827838 DCon1892 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:23:30.830061 DCon1892 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:23:30.844182 DCon1892 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:23:30.844997 DCon1894 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:23:30.859818 DCon1894 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:23:30.966023 DCon1890 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:23:30.985721 DCon1890 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:23:30.993349 DCon1888 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:30.994912 DCon1888 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:31.028885 DCon1888 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:31.029984 DCon1888 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:31.068910 DCon1888 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:31.069974 DCon1888 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:31.105433 DCon1890 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:31.106403 DCon1890 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:31.140010 DCon1890 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:31.141016 DCon1890 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:31.159003 DCon1888 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-24:23:31.178817 DCon1888 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-24:23:31.220965 DCon1891 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:31.473924 DCon1892 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:23:31.492711 DCon1892 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:23:33.900815 DCon1892 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:23:34.176367 DCon1892 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:23:37.200514 DCon1894 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:23:37.786610 DCon1894 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:23:37.795305 DCon1892 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:37.796400 DCon1892 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:37.831287 DCon1892 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:37.832321 DCon1892 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:37.914552 DCon1891 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:42.609800 DCon1894 Platform architecture set to 'x86'
-24:23:42.613142 DCon1894 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:42.769283 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:23:42.983643 DCon1884 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-24:23:43.056389 DCon1884 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-24:23:43.056526 DCon1891 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:23:43.097814 DCon1891 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:23:43.106718 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:02.137419 DCon1900 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:24:02.952470 DCon1900 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:24:15.203900 DCon1895 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:24:16.300085 DCon1895 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:24:19.574739 DCon1900 Platform architecture set to 'x86'
-24:24:19.587235 DCon1888 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 0 of controller 'IDE'}, preserve=false aResultDetail=0
-24:24:19.588950 DCon1900 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={No storage device attached to device slot 1 on port 1 of controller 'IDE'}, preserve=false aResultDetail=0
-24:24:19.613360 DCon1900 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:24:19.630323 DCon1900 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:24:19.654162 DCon1902 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:19.655266 DCon1902 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:19.745082 DCon1902 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:19.953934 DCon1905 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-24:24:20.168461 DCon1905 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-24:24:20.168584 DCon1902 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:24:20.192651 DCon1902 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:24:20.200417 DCon1904 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:21.510007 DCon1904 Launched VM: 1926709904 pid: 850142 (0xcf8de) frontend: GUI/Qt name: freebsd2
-24:24:21.556830 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:21.800372 DCon1901 Platform architecture set to 'x86'
-24:24:21.811897 DCon1907 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:21.951824 DCon1905 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:24:21.954516 DCon1894 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-24:24:22.068475 DCon1905 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:24:22.088614 DCon1894 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-24:24:22.097732 DCon1902 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:22.300643 DCon1902 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:24:22.344043 DCon1900 ERROR [COM]: aRC=VBOX_E_INVALID_OBJECT_STATE (0x80bb0007) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/stephan/LOCALDATA/VM/FreeBSD/2Go_1.vdi' is locked for writing by another task}, preserve=true aResultDetail=0
-24:24:22.344070 DCon1900 ERROR [COM]: aRC=VBOX_E_INVALID_OBJECT_STATE (0x80bb0007) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Locking of attached media failed. A possible reason is that one of the media is attached to a running VM}, preserve=true aResultDetail=0
-24:24:22.347251 DCon1904 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:24:22.443262 DCon1904 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:24:22.452845 DCon1902 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:22.454165 DCon1895 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:22.470987 DCon1895 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:24:22.497566 DCon1902 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:24:22.502575 DCon1902 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:22.503739 DCon1902 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:22.519518 DCon1895 ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
-24:24:22.582242 DCon1895 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:22.583299 DCon1895 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:22.626033 DCon1894 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:22.627072 DCon1894 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:22.710011 DCon1894 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:22.852404 DCon1881 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-24:24:22.874911 DCon1881 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-24:24:22.875032 DCon1895 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:24:22.891055 DCon1895 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:24:22.898368 DCon1900 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:23.408056 DCon1895 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:24:23.429064 DCon1895 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:24:23.438961 DCon1894 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:23.439999 DCon1894 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:23.480761 DCon1894 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:23.481805 DCon1894 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:24:23.564955 DCon1894 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:05.218022 DCon1900 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:26:06.018319 DCon1900 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:26:11.464438 DCon1900 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:26:19.962017 DCon1881 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-24:26:20.009721 DCon1881 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-24:26:20.037547 DCon1881 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:26:20.441753 DCon1913 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:26:20.493548 DCon1913 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:26:22.706874 DCon1900 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:26:23.784954 DCon1900 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:26:23.793688 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:23.794794 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:23.838204 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:23.839341 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:23.884971 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:24.431488 DCon1881 Launched VM: 1926689872 pid: 851402 (0xcfdca) frontend: GUI/Qt name: freebsd2
-24:26:24.479329 DCon1914 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:24.634709 DCon1914 Platform architecture set to 'x86'
-24:26:24.647052 DCon1888 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:24.843236 DCon1903 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:26:25.087221 DCon1888 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:26:25.279569 DCon1903 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:26:25.307378 DCon1914 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.308414 DCon1888 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.339174 DCon1914 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.339858 DCon1914 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.358842 DCon1918 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:26:25.392417 DCon1918 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.457042 DCon1918 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:26:25.457983 DCon1918 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:26:25.458924 DCon1918 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:26:25.459881 DCon1918 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:26:25.461081 DCon1918 HostDnsMonitorProxy::GetDomainName: no domain set
-24:26:25.461213 DCon1918 HostDnsMonitorProxy::GetNameServers:
-24:26:25.461219 DCon1918   name server 1: 192.168.1.254
-24:26:25.461222 DCon1918   name server 2: fd0f:ee:b0::1
-24:26:25.461345 DCon1918 HostDnsMonitorProxy::GetSearchStrings:
-24:26:25.461348 DCon1918   no search string entries
-24:26:25.481622 DCon1913 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.481880 DCon1915 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:26:25.482391 DCon1915 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.518397 DCon1913 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.519183 DCon1913 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.600754 DCon1915 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.674923 DCon1916 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:26:25.703800 DCon1916 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:26:25.714855 DCon1915 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.715823 DCon1915 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:26:25.758677 DCon1915 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:27:04.356020 DCon1900 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:27:04.357257 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:27:04.370289 DCon1900 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:27:04.397555 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:27:04.398554 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:27:04.477820 DCon1881 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
-24:27:04.574797 DCon1900 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:27:04.588224 DCon1900 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:27:04.617785 DCon1920 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:27:05.035761 DCon1900 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:27:05.057804 DCon1900 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:27:08.868129 DCon1921 Platform architecture set to 'x86'
-24:27:09.351186 DCon1921 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:27:09.924257 DCon1921 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:27:15.593549 DCon1921 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:27:16.979354 DCon1921 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:27:17.075544 DCon1918 Platform architecture set to 'x86'
-24:27:19.516917 DCon1912 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:27:19.538284 DCon1912 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:27:19.629646 DCon1921 Platform architecture set to 'x86'
-24:27:22.936675 DCon1921 Platform architecture set to 'x86'
-24:27:22.944525 DCon1921 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={No storage device attached to device slot 0 on port 0 of controller 'IDE'}, preserve=false aResultDetail=0
-24:27:22.968633 DCon1922 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:27:23.100978 DCon1922 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:27:23.477555 DCon1921 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:27:23.567268 DCon1921 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:27:32.134093 DCon1921 Launched VM: 872456272 pid: 852183 (0xd00d7) frontend: GUI/Qt name: freebsd2
-24:27:32.334581 DCon1915 Platform architecture set to 'x86'
-24:27:32.545665 DCon1918 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:27:32.803055 DCon1925 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:27:33.856543 DCon1918 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:27:33.969842 DCon1924 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:27:33.977729 DCon1925 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:27:34.002212 DCon1925 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:27:34.068739 DCon1924 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:27:34.069688 DCon1924 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:27:34.070606 DCon1915 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:27:34.071472 DCon1924 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:27:34.072528 DCon1924 HostDnsMonitorProxy::GetDomainName: no domain set
-24:27:34.072606 DCon1924 HostDnsMonitorProxy::GetNameServers:
-24:27:34.072608 DCon1924   name server 1: 192.168.1.254
-24:27:34.072610 DCon1924   name server 2: fd0f:ee:b0::1
-24:27:34.072685 DCon1924 HostDnsMonitorProxy::GetSearchStrings:
-24:27:34.072687 DCon1924   no search string entries
-24:27:34.088611 DCon1918 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:27:34.336918 DCon1918 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:27:34.365434 DCon1918 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:37:04.468628 DCon1946 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:37:05.130497 DCon1929 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:37:05.170569 DCon1929 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:37:05.198509 DCon1929 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:37:05.559178 DCon1947 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:37:05.565731 DCon1947 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:37:09.153995 DCon1943 Platform architecture set to 'x86'
-24:37:09.623623 DCon1943 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:37:09.733279 DCon1943 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:37:15.822422 DCon1943 Launched VM: 2013346848 pid: 858825 (0xd1ac9) frontend: GUI/Qt name: freebsd2
-24:37:16.021351 DCon1951 Platform architecture set to 'x86'
-24:37:16.184599 DCon1954 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:37:16.507721 DCon1943 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:37:16.518886 DCon1954 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:37:16.595450 DCon1951 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:37:16.673434 DCon1952 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:37:16.674261 DCon1952 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:37:16.675052 DCon1952 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:37:16.675873 DCon1952 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:37:16.676836 DCon1952 HostDnsMonitorProxy::GetDomainName: no domain set
-24:37:16.676909 DCon1952 HostDnsMonitorProxy::GetNameServers:
-24:37:16.676910 DCon1952   name server 1: 192.168.1.254
-24:37:16.676912 DCon1952   name server 2: fd0f:ee:b0::1
-24:37:16.676985 DCon1952 HostDnsMonitorProxy::GetSearchStrings:
-24:37:16.676986 DCon1952   no search string entries
-24:37:16.691795 DCon1948 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:37:42.395719 DCon1943 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:37:44.177311 DCon1956 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:37:46.012503 DCon1956 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:37:46.039136 DCon1956 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:37:46.772799 DCon1955 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:37:47.102590 DCon1955 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:37:55.388957 DCon1955 Platform architecture set to 'x86'
-24:37:55.391481 DCon1955 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:37:55.562470 DCon1955 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:37:57.676930 DCon1943 Platform architecture set to 'x86'
-24:38:05.465515 DCon1948 Platform architecture set to 'x86'
-24:38:05.502774 DCon1950 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:38:06.044389 DCon1950 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:38:06.433906 DCon1955 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:38:06.457671 DCon1955 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:38:08.669980 DCon1955 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:38:08.693471 DCon1955 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:38:09.433638 DCon1950 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:38:09.453311 DCon1950 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:38:10.279279 DCon1948 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:38:11.033061 DCon1948 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:38:11.977444 DCon1955 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:38:11.994008 DCon1955 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:38:15.350606 DCon1943 Platform architecture set to 'x86'
-24:38:15.829698 DCon1950 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:38:16.031523 DCon1950 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:38:23.426840 DCon1950 Platform architecture set to 'x86'
-24:38:23.464571 DCon1959 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-24:38:23.570019 DCon1959 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-24:38:23.951276 DCon1943 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:38:24.433481 DCon1943 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:38:25.136143 DCon1943 Launched VM: 2013696848 pid: 859527 (0xd1d87) frontend: GUI/Qt name: freebsd2
-24:38:25.333955 DCon1961 Platform architecture set to 'x86'
-24:38:25.539957 DCon1960 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-24:38:25.781566 DCon1960 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-24:38:25.819758 DCon1960 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:38:25.911518 DCon1961 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-24:38:25.999577 DCon1961 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:38:26.000574 DCon1961 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:38:26.001551 DCon1961 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-24:38:26.002777 DCon1960 HostDnsMonitorProxy::GetDomainName: no domain set
-24:38:26.002902 DCon1961 HostDnsMonitorProxy::GetNameServers:
-24:38:26.002905 DCon1961   name server 1: 192.168.1.254
-24:38:26.002906 DCon1961   name server 2: fd0f:ee:b0::1
-24:38:26.003017 DCon1961 HostDnsMonitorProxy::GetSearchStrings:
-24:38:26.003019 DCon1961   no search string entries
-24:38:26.018929 DCon1959 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-39:42:13.221540 DCon2668 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-39:42:13.733070 DCon2668 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-39:42:14.054250 DCon2668 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-39:42:14.068547 DCon2668 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
-48:31:25.129985 DCon3088 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-48:31:25.130308 DCon3088 Log rotated - Log started 2026-05-27T21:39:09.112343000Z
+48:31:25.146851 DCon3088 Log continuation - Log started 2026-05-27T21:39:09.112343000Z
+48:31:25.173570 DCon3088 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
+48:31:25.465814 DCon3091 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
+48:31:26.131684 DCon3091 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
+48:35:35.790539 DCon3074 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+48:35:35.954361 DCon3074 Saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
+48:35:36.007269 DCon3074 Finished saving settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox"
+48:35:36.026949 DCon3102 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+48:35:36.428138 DCon3100 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:35:36.448865 DCon3100 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:35:38.251241 DCon3094 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:35:38.275321 DCon3094 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:35:39.886872 DCon3083 Launched VM: 603984944 pid: 1961243 (0x1ded1b) frontend: GUI/Qt name: FreeBSD
+48:35:40.132798 DCon3098 Platform architecture set to 'x86'
+48:35:40.329979 DCon3104 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:35:40.357885 DCon3104 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:35:40.602058 DCon3104 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+48:35:40.718804 DCon3105 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+48:35:40.854010 DCon3105 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+48:35:40.854879 DCon3105 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+48:35:40.855889 DCon3105 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+48:35:40.856761 DCon3105 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+48:35:40.857841 DCon3105 HostDnsMonitorProxy::GetDomainName: no domain set
+48:35:40.857946 DCon3105 HostDnsMonitorProxy::GetNameServers:
+48:35:40.857951 DCon3105   name server 1: 192.168.1.254
+48:35:40.857956 DCon3105   name server 2: fd0f:ee:b0::1
+48:35:40.858064 DCon3105 HostDnsMonitorProxy::GetSearchStrings:
+48:35:40.858069 DCon3105   no search string entries
+48:35:40.879970 DCon3104 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+48:35:41.053859 DCon3102 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+48:35:41.074821 DCon3102 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+48:50:22.214417 DCon3125 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:50:22.237160 DCon3125 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:50:25.310282 DCon3125 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:50:25.333296 DCon3125 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:50:28.018113 DCon3134 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+48:50:28.503138 DCon3118 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+48:50:28.572415 DCon3118 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+48:50:28.599128 DCon3118 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+48:50:28.972591 DCon3133 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:50:29.004228 DCon3133 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:50:39.313551 DCon3133 Platform architecture set to 'x86'
+48:50:39.751230 DCon3132 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:50:39.777167 DCon3132 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:51:19.920408 DCon3137 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:51:19.950492 DCon3137 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:51:31.787731 DCon3133 Platform architecture set to 'x86'
+48:51:31.822794 DCon3133 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+48:51:31.848595 DCon3133 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+48:51:32.251019 DCon3138 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:51:32.271943 DCon3138 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:51:35.793718 DCon3138 Launched VM: 1342201744 pid: 1972513 (0x1e1921) frontend: GUI/Qt name: FreeBSD
+48:51:36.005472 DCon3140 Platform architecture set to 'x86'
+48:51:36.217783 DCon3145 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:51:36.494487 DCon3142 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+48:51:37.341991 DCon3145 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:51:37.438718 DCon3139 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+48:51:37.447105 DCon3139 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+48:51:37.472826 DCon3139 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+48:51:37.499430 DCon3145 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+48:51:37.501160 DCon3145 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+48:51:37.502867 DCon3133 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+48:51:37.504392 DCon3138 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+48:51:37.506085 DCon3145 HostDnsMonitorProxy::GetDomainName: no domain set
+48:51:37.506216 DCon3138 HostDnsMonitorProxy::GetNameServers:
+48:51:37.506221 DCon3138   name server 1: 192.168.1.254
+48:51:37.506223 DCon3138   name server 2: fd0f:ee:b0::1
+48:51:37.506318 DCon3138 HostDnsMonitorProxy::GetSearchStrings:
+48:51:37.506320 DCon3138   no search string entries
+48:51:37.580795 DCon3124 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+48:51:37.782644 DCon3146 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+48:51:38.268220 DCon3146 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+48:54:22.916875 DCon3139 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+48:54:22.922537 DCon3141 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+48:54:22.951616 DCon3139 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+48:54:22.953768 DCon3141 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+48:54:25.754020 DCon3152 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+48:54:25.836166 DCon3152 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+49:26:34.386341 DCon3183 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+49:26:34.428131 DCon3183 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+49:26:34.428278 DCon3184 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+49:26:34.444150 DCon3184 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+83:41:41.663751 DCon5349 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+83:41:41.673786 DCon5349 Log rotated - Log started 2026-05-27T21:39:09.112343000Z

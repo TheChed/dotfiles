@@ -1,174 +1,99 @@
-00:00:00.207403 main     VirtualBox XPCOM Server 7.2.8 r173730 linux.amd64 (Apr 24 2026 13:40:10) release log
-00:00:00.207404 main     Log opened 2026-06-04T20:03:15.347599000Z
-00:00:00.207405 main     Build Type: release
-00:00:00.207406 main     OS Product: Linux
-00:00:00.207407 main     OS Release: 7.0.10-arch1-1
-00:00:00.207407 main     OS Version: #1 SMP PREEMPT_DYNAMIC Sat, 23 May 2026 14:21:20 +0000
-00:00:00.207427 main     DMI Product Name: X570 AORUS MASTER
-00:00:00.207435 main     DMI Product Version: -CF
-00:00:00.207585 main     Firmware type: UEFI
-00:00:00.208102 main     Secure Boot: Disabled
-00:00:00.208156 main     Host RAM: 32029MB (31.2GB) total, 26023MB (25.4GB) available
-00:00:00.208158 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.208159 main     Process ID: 1471644
-00:00:00.208159 main     Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.213530 main     IPC socket path: /tmp/.vbox-stephan-ipc/ipcd
-00:00:00.216296 DCon01   VirtualBox: object creation starts
-00:00:00.216364 DCon01   Home directory: '/home/stephan/.config/VirtualBox'
-00:00:00.216678 DCon01   Loading settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.218829 DCon01   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
-00:00:00.218872 DCon01   Successfully initialised host USB using sysfs
-00:00:00.220036 DCon01   Failed to retrive disk info: getDiskName(/dev/mapper/VOL0-lv_root) --> VOL0-lv_root
-00:00:00.220334 DCon01   HostDnsMonitor: initializing
-00:00:00.220428 DCon01   NAT: resolv.conf: nameserver 192.168.1.254
-00:00:00.220431 DCon01   NAT: resolv.conf: nameserver fd0f:ee:b0::1
-00:00:00.220436 DCon01   HostDnsMonitor: updating information
-00:00:00.220440 DCon01   HostDnsMonitor: old information
-00:00:00.220441 DCon01     no server entries
-00:00:00.220442 DCon01     no domain set
-00:00:00.220443 DCon01     no search string entries
-00:00:00.220445 DCon01   HostDnsMonitor: new information
-00:00:00.220446 DCon01     server 1: 192.168.1.254
-00:00:00.220447 DCon01     server 2: fd0f:ee:b0::1
-00:00:00.220448 DCon01     no domain set
-00:00:00.220449 DCon01     no search string entries
-00:00:00.221490 DCon01   VD: VDInit finished with VINF_SUCCESS
-00:00:00.222227 DCon01   Platform architecture set to 'x86'
-00:00:00.222459 DCon01   Loading settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-00:00:00.222600 DCon01   Platform architecture set to 'x86'
-00:00:00.222954 DCon01   Platform architecture set to 'x86'
-00:00:00.266527 DCon01   Loading settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
-00:00:00.266617 DCon01   Platform architecture set to 'x86'
-00:00:00.266856 DCon01   VirtualBox: object created
-00:00:02.498482 DCon02   Launched VM: 4227864640 pid: 1471698 (0x1674d2) frontend: GUI/Qt name: FreeBSD
-00:00:02.701267 DCon06   Platform architecture set to 'x86'
-00:00:02.890589 DCon10   Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:03.651619 DCon10   Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-00:00:03.854341 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-00:00:03.855659 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-00:00:03.856957 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-00:00:03.858256 DCon05   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-00:00:03.859804 DCon05   HostDnsMonitorProxy::GetDomainName: no domain set
-00:00:03.859941 DCon05   HostDnsMonitorProxy::GetNameServers:
-00:00:03.859944 DCon05     name server 1: 192.168.1.254
-00:00:03.859947 DCon05     name server 2: fd0f:ee:b0::1
-00:00:03.860080 DCon05   HostDnsMonitorProxy::GetSearchStrings:
-00:00:03.860087 DCon05     no search string entries
-00:00:06.027622 DCon05   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-00:00:06.051892 DCon03   Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-00:00:06.079212 DCon03   Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-00:00:06.393687 DCon02   Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-00:00:06.415471 DCon02   Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-11:21:48.634614 DCon1279 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-11:21:55.960188 DCon1279 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-11:21:56.282626 DCon1290 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-11:22:00.150268 DCon1290 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-11:31:33.679504 DCon1316 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-11:31:51.882092 DCon1316 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-11:31:52.193847 DCon1319 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-11:32:03.369742 DCon1319 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-11:56:34.865161 DCon1355 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-11:56:35.301917 DCon1355 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-11:56:35.594283 DCon1370 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-11:56:35.619752 DCon1370 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-11:58:51.966763 DCon1378 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-11:58:51.981473 DCon1378 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-11:58:52.393242 DCon1378 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-11:58:52.671692 DCon1378 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-12:20:52.125970 DCon1419 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-12:21:05.232411 DCon1418 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-12:21:07.808531 DCon1418 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-12:21:07.829653 DCon1422 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-12:21:07.832639 DCon1422 ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
-12:21:07.833647 DCon1422 ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
-12:21:08.185797 DCon1418 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-12:21:12.378631 DCon1418 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-12:36:25.452456 DCon1458 Launched VM: 4097367632 pid: 1918622 (0x1d469e) frontend: GUI/Qt name: FreeBSD
-12:36:25.718784 DCon1463 Platform architecture set to 'x86'
-12:36:25.890672 DCon1463 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-12:36:26.241820 DCon1462 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-12:36:26.482121 DCon1463 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-12:36:26.616595 DCon1462 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-12:36:26.622321 DCon1466 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-12:36:26.649142 DCon1466 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-12:36:26.742900 DCon1458 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-12:36:26.743975 DCon1458 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-12:36:26.745142 DCon1458 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-12:36:26.746128 DCon1458 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-12:36:26.747252 DCon1458 HostDnsMonitorProxy::GetDomainName: no domain set
-12:36:26.747336 DCon1458 HostDnsMonitorProxy::GetNameServers:
-12:36:26.747339 DCon1458   name server 1: 192.168.1.254
-12:36:26.747341 DCon1458   name server 2: fd0f:ee:b0::1
-12:36:26.747427 DCon1458 HostDnsMonitorProxy::GetSearchStrings:
-12:36:26.747430 DCon1458   no search string entries
-12:36:26.772514 DCon1466 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-12:36:26.983655 DCon1462 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-12:36:27.006956 DCon1462 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-15:55:24.998360 DCon1844 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-15:55:25.064578 DCon1853 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-15:55:26.256691 DCon1844 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-15:55:26.529415 DCon1853 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-15:55:26.822183 DCon1844 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-15:55:26.840088 DCon1844 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-15:55:26.864283 DCon1845 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-15:55:26.877616 DCon1845 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-16:27:04.691507 DCon1922 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-16:27:04.712609 DCon1917 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-16:27:04.757287 DCon1922 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-16:27:04.759729 DCon1917 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-16:27:05.191267 DCon1923 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-16:27:05.192810 DCon1918 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-16:27:05.230823 DCon1923 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-16:27:05.233454 DCon1918 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-17:57:42.370802 DCon2091 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-17:57:45.925491 DCon2091 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-17:57:52.868939 DCon2093 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-17:57:52.883234 DCon2093 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-17:57:58.325341 DCon2093 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-17:57:58.338132 DCon2097 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-17:57:58.344253 DCon2089 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-17:58:02.666809 DCon2097 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-17:58:05.817036 DCon2089 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-17:58:05.830923 DCon2099 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-17:58:10.476075 DCon2099 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-17:58:10.793112 DCon2100 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-17:58:13.672478 DCon2100 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-17:58:13.713477 DCon2093 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-17:58:23.693936 DCon2093 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-17:58:23.701242 DCon2091 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-17:58:36.399081 DCon2091 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-18:05:18.366640 DCon2117 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-18:05:23.057778 DCon2117 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-18:05:23.070042 DCon2103 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-18:05:28.932809 DCon2103 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-18:05:28.939194 DCon2093 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-18:05:30.095243 DCon2093 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-18:05:52.084024 DCon2113 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-18:05:52.354232 DCon2113 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-18:05:52.362566 DCon2124 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-18:05:52.466004 DCon2124 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-18:14:48.124403 DCon2148 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-18:14:48.392105 DCon2148 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-18:14:48.395094 DCon2145 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-18:14:48.429435 DCon2145 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
-18:14:48.433207 DCon2152 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-18:14:48.462121 DCon2152 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-18:14:52.975681 DCon2138 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-18:14:53.575888 DCon2138 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-18:14:53.586396 DCon2148 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-18:14:58.041980 DCon2148 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-18:15:07.695900 DCon2152 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-18:15:08.310485 DCon2152 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-18:17:08.636094 DCon2160 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-18:17:12.292791 DCon2156 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-19:49:09.871487 DCon2296 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-19:49:13.383769 DCon2294 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
-19:49:15.750817 DCon2294 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
-19:49:15.776133 DCon2296 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
-19:51:14.560049 main     VirtualBox: object deletion starts
-19:51:14.560115 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-19:51:14.560671 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-19:51:14.561304 main     HostDnsMonitor: shutting down ...
-19:51:14.561468 main     HostDnsMonitor: shut down
-19:51:14.572104 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
-19:51:14.572163 main     VirtualBox: object deleted
+00:00:00.183878 main     VirtualBox XPCOM Server 7.2.8 r173730 linux.amd64 (Apr 24 2026 13:40:10) release log
+00:00:00.183880 main     Log opened 2026-06-10T20:55:27.628114000Z
+00:00:00.183881 main     Build Type: release
+00:00:00.183882 main     OS Product: Linux
+00:00:00.183883 main     OS Release: 7.0.11-arch1-1
+00:00:00.183884 main     OS Version: #1 SMP PREEMPT_DYNAMIC Tue, 02 Jun 2026 18:26:58 +0000
+00:00:00.183908 main     DMI Product Name: X570 AORUS MASTER
+00:00:00.183919 main     DMI Product Version: -CF
+00:00:00.183923 main     Firmware type: UEFI
+00:00:00.184398 main     Secure Boot: Disabled
+00:00:00.184433 main     Host RAM: 32029MB (31.2GB) total, 25293MB (24.7GB) available
+00:00:00.184435 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.184435 main     Process ID: 628952
+00:00:00.184436 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.190047 main     IPC socket path: /tmp/.vbox-stephan-ipc/ipcd
+00:00:00.203053 DCon01   VirtualBox: object creation starts
+00:00:00.204233 DCon01   Home directory: '/home/stephan/.config/VirtualBox'
+00:00:00.285197 DCon01   Loading settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.293242 DCon01   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
+00:00:00.293313 DCon01   Successfully initialised host USB using sysfs
+00:00:00.295149 DCon01   Failed to retrive disk info: getDiskName(/dev/mapper/VOL0-lv_root) --> VOL0-lv_root
+00:00:00.296205 DCon01   HostDnsMonitor: initializing
+00:00:00.296318 DCon01   NAT: resolv.conf: nameserver 192.168.1.254
+00:00:00.296321 DCon01   NAT: resolv.conf: nameserver fd0f:ee:b0::1
+00:00:00.296326 DCon01   HostDnsMonitor: updating information
+00:00:00.296330 DCon01   HostDnsMonitor: old information
+00:00:00.296332 DCon01     no server entries
+00:00:00.296333 DCon01     no domain set
+00:00:00.296334 DCon01     no search string entries
+00:00:00.296335 DCon01   HostDnsMonitor: new information
+00:00:00.296336 DCon01     server 1: 192.168.1.254
+00:00:00.296337 DCon01     server 2: fd0f:ee:b0::1
+00:00:00.296339 DCon01     no domain set
+00:00:00.296340 DCon01     no search string entries
+00:00:00.300440 DCon01   VD: VDInit finished with VINF_SUCCESS
+00:00:00.306311 DCon01   Platform architecture set to 'x86'
+00:00:00.518641 DCon01   Loading settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+00:00:00.519589 DCon01   Platform architecture set to 'x86'
+00:00:00.520943 DCon01   Platform architecture set to 'x86'
+00:00:00.541769 DCon01   Loading settings file "/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vbox" with version "1.19-linux"
+00:00:00.541862 DCon01   Platform architecture set to 'x86'
+00:00:00.542935 DCon01   VirtualBox: object created
+00:00:04.124921 DCon05   Launched VM: 2281705328 pid: 629026 (0x99922) frontend: GUI/Qt name: FreeBSD
+00:00:04.334606 DCon06   Platform architecture set to 'x86'
+00:00:04.561012 DCon11   Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.590109 DCon11   Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+00:00:04.821543 DCon11   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:04.925453 DCon11   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.065910 DCon11   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.067103 DCon11   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.068248 DCon11   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.069415 DCon11   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.070496 DCon11   HostDnsMonitorProxy::GetDomainName: no domain set
+00:00:05.070579 DCon11   HostDnsMonitorProxy::GetNameServers:
+00:00:05.070580 DCon11     name server 1: 192.168.1.254
+00:00:05.070582 DCon11     name server 2: fd0f:ee:b0::1
+00:00:05.070663 DCon11   HostDnsMonitorProxy::GetSearchStrings:
+00:00:05.070665 DCon11     no search string entries
+00:00:05.091024 DCon04   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:05.265140 DCon10   Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+00:00:05.293119 DCon10   Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+09:49:09.769573 DCon1113 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+09:49:09.918352 DCon1113 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+09:49:09.933143 DCon1113 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+09:49:09.949075 DCon1113 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+09:49:10.286366 DCon1113 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+09:49:10.302347 DCon1113 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+09:49:12.822899 DCon1114 Launched VM: 2214611664 pid: 918995 (0xe05d3) frontend: GUI/Qt name: FreeBSD
+09:49:13.034000 DCon1112 Platform architecture set to 'x86'
+09:49:13.260548 DCon1108 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+09:49:13.313148 DCon1108 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+09:49:13.580653 DCon1108 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+09:49:13.672738 DCon1116 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+09:49:13.800062 DCon1116 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+09:49:13.800985 DCon1116 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+09:49:13.801887 DCon1116 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+09:49:13.802794 DCon1116 ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+09:49:13.803912 DCon1116 HostDnsMonitorProxy::GetDomainName: no domain set
+09:49:13.804006 DCon1116 HostDnsMonitorProxy::GetNameServers:
+09:49:13.804009 DCon1116   name server 1: 192.168.1.254
+09:49:13.804012 DCon1116   name server 2: fd0f:ee:b0::1
+09:49:13.804107 DCon1116 HostDnsMonitorProxy::GetSearchStrings:
+09:49:13.804119 DCon1116   no search string entries
+09:49:13.826088 DCon1116 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+15:25:09.381154 DCon1796 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+15:25:10.309145 DCon1796 ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Stopping)}, preserve=false aResultDetail=0
+15:25:23.340168 DCon1794 Saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox" with version "1.19-linux"
+15:25:31.875268 DCon1794 Finished saving settings file "/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vbox"
+15:25:31.901431 DCon1802 ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={83cfdc66-4f20-4569-ad39-8722f7d472b3} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+15:25:31.903261 DCon1802 ERROR [COM]: aRC=NS_ERROR_INVALID_ARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+15:25:32.255214 DCon1795 Saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+15:25:37.464991 DCon1795 Finished saving settings file "/home/stephan/.config/VirtualBox/VirtualBox.xml"
+16:36:25.059475 main     VirtualBox: object deletion starts
+16:36:25.060262 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/stephan/LOCALDATA/VM/FreeBSD/FreeBSD.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+16:36:25.062395 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium '/home/stephan/LOCALDATA/VM/freebsd2/freebsd2.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+16:36:25.064615 main     HostDnsMonitor: shutting down ...
+16:36:25.064901 main     HostDnsMonitor: shut down
+16:36:25.080413 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={2ce10519-3c09-45d8-a12d-e887786146b7} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+16:36:25.080476 main     VirtualBox: object deleted
